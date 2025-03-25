@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+        "mcp-server": {
+            "command": ["node"],
+            "args": ["index.js"],
+            "cwd": "PATH_TO_MCP_SERVER_EX\\build"
+        }
+    }
+}

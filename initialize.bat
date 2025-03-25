@@ -1,0 +1,13 @@
+chcp > nul
+@echo off
+echo Creating .env file...
+echo # 환경 변수 설정 > .env
+
+echo Creating Python virtual environment...
+python -m venv env
+
+echo Activating virtual environment...
+call env\Scripts\activate.bat
+
+echo Installing dependencies from requirements.txt...
+pip install -r requirements.txt
