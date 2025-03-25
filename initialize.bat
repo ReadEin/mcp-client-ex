@@ -1,4 +1,4 @@
-chcp > nul
+chcp 65001 > nul
 @echo off
 echo Creating .env file...
 echo # 환경 변수 설정 > .env
